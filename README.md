@@ -68,7 +68,7 @@ POST запросы:
     "Текст": "laudantium enim quasi est quidem magnam voluptate ipsam eos\ntempora quo necessitatibus\ndolor quam autem quasi\nreiciendis et nam sapiente accusantium"
  }
 ```
-Пример JSON для добавления комментария (id писать не обязательно):
+Пример JSON для добавления комментария (id писать не обязательно, система добавит его сама):
 ```json
 {
     "id": 666,
