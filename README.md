@@ -60,19 +60,17 @@ POST запросы:
 * http://localhost/InfoBase1/hs/programm/addpost/
 * http://localhost/InfoBase1/hs/programm/addcomment/
 
-Пример JSON для добавления поста (Айди писать не обязательно, система добавит его сама):
+Пример JSON для добавления поста:
 ```json
  {
-    "Айди": 1666,
     "АйдиПользователя": 1,
     "Заголовок": "id labore ex et quam laborum",
     "Текст": "laudantium enim quasi est quidem magnam voluptate ipsam eos\ntempora quo necessitatibus\ndolor quam autem quasi\nreiciendis et nam sapiente accusantium"
  }
 ```
-Пример JSON для добавления комментария (id писать не обязательно, система добавит его сама):
+Пример JSON для добавления комментария:
 ```json
 {
-    "id": 666,
     "postId": 3,
     "userId": 2,
     "body": "laudantium enim quasi est quidem magnam voluptate ipsam eos\ntempora quo necessitatibus\ndolor quam autem quasi\nreiciendis et nam sapiente accusantium"
