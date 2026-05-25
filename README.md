@@ -63,7 +63,7 @@ POST запросы:
 Пример JSON для добавления поста:
 ```json
  {
-    "АйдиПользователя": 1,
+    "ИдентификаторПользователя": 1,
     "Заголовок": "id labore ex et quam laborum",
     "Текст": "laudantium enim quasi est quidem magnam voluptate ipsam eos\ntempora quo necessitatibus\ndolor quam autem quasi\nreiciendis et nam sapiente accusantium"
  }
@@ -71,8 +71,8 @@ POST запросы:
 Пример JSON для добавления комментария:
 ```json
 {
-    "postId": 3,
-    "userId": 2,
-    "body": "laudantium enim quasi est quidem magnam voluptate ipsam eos\ntempora quo necessitatibus\ndolor quam autem quasi\nreiciendis et nam sapiente accusantium"
+    "ИдентификаторПоста": 3,
+    "ИдентификаторПользователя": 2,
+    "Текст": "laudantium enim quasi est quidem magnam voluptate ipsam eos\ntempora quo necessitatibus\ndolor quam autem quasi\nreiciendis et nam sapiente accusantium"
   }
 ```
